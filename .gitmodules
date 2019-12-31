@@ -1,0 +1,3 @@
+[submodule "Source"]
+	path = Source
+	url = https://github.com/DaanV2/DaanV2.Essentials.Net.git
