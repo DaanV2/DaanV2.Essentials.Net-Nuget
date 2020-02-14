@@ -13,13 +13,17 @@
     <RepositoryUrl>https://github.com/DaanV2/DaanV2.Essentials.Net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>essentials;interfaces</PackageTags>
-    <AssemblyVersion>1.0.8.0</AssemblyVersion>
-    <FileVersion>1.0.8.0</FileVersion>
+    <AssemblyVersion>1.0.9.0</AssemblyVersion>
+    <FileVersion>1.0.9.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Mijn Projecten\Software\Nuget\DaanV2.Essentials.Net\DaanV2.Essentials.Net - Standard2.1\DaanV2.Essentials.Net.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
